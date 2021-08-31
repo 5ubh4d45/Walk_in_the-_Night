@@ -6,7 +6,7 @@ public class TouchController : MonoBehaviour
 {
     public GameObject controlButtons;
     //public MainMenu isTouchControlOn; 
-    // Update is called once per frame
+    
     void Update()
     {
         if(MainMenu.instance.ReturnTouchControl() == true){
