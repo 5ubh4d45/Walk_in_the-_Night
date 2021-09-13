@@ -14,7 +14,7 @@ public class StartScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Application.loadedLevelName == "StartScreen"){
+        if (SceneManager.GetActiveScene().buildIndex == 0){
             AudioManager.instance.Stop("enemy_grunt");
         }
     }
